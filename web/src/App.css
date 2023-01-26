@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.account-info {
+  margin-top: 20px;
+}
+
+.account-info div {
+  margin-top: 10px;
+}
+
+.message {
+  font-size: large;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.entry-input {
+  width: 120px;
+  height: 24px;
+  font-size: 14px;
+  margin-left: 8px;
+  border-radius: 4px;
+  border: 1px solid #A9A9A9;
+  padding-left: 4px;
+}
+
+.button {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: deepskyblue;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.pick-winner {
+  margin-top: 0;
+  width: 140px;
+}
